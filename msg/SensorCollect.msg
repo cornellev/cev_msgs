@@ -1,9 +1,9 @@
 # SensorCollect.msg
 #
-# stamp   : Time           [ Message time ]
+# float64 : timestamp      [ Message time ]
 # float32 : velocity       [ Velocity in m/s]
 # float32 : steering_angle [ Steering angle in radians ]
 #
-uint32 stamp
+float64 timestamp
 float32 velocity
 float32 steering_angle
