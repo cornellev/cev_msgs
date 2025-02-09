@@ -10,7 +10,9 @@ Trajectory.msg
  - Waypoint[] : waypoints    [ Array of Waypoints ]
 
 Waypoint.msg
- - float32 : x    [ x-coordinate in meters ]
- - float32 : y    [ y-coordinate in meters ]
- - float32 : v    [ velocity in m/s ]
+ - float32 : x     [ x-coordinate in meters ]
+ - float32 : y     [ y-coordinate in meters ]
+ - float32 : v     [ velocity in m/s ]
+ - float32 : tau   [ steering angle in radians ]
+ - float32 : theta [ heading in radians ]
  
