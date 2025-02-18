@@ -5,3 +5,4 @@
 #
 std_msgs/Header header
 cev_msgs/Waypoint[] waypoints
+float timestep
