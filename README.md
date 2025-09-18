@@ -16,3 +16,11 @@ Waypoint.msg
  - float32 : tau   [ steering angle in radians ]
  - float32 : theta [ heading in radians ]
  
+Obstacle.msg
+ - float64 : x              [ x-coordinate of obstacle center in meters ]
+ - float64 : y              [ y-coordinate of obstacle center in meters ]
+ - float64 : z              [ z-coordinate of obstacle center in meters ]
+ - float64 : max_radius     [ maximum radius of obstacle in meters ]
+
+Obstacles.msg
+ - Obstacle[] : obstacles   [ Array of Obstacle(s) ]
