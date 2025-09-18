@@ -18,6 +18,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Waypoint.msg"
   "msg/SensorCollect.msg"
   "msg/Trajectory.msg"
+  "msg/Obstacle.msg"
+  "msg/Obstacles.msg"
   DEPENDENCIES std_msgs
 )
 
