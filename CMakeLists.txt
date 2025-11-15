@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Trajectory.msg"
   "msg/Obstacle.msg"
   "msg/Obstacles.msg"
+  "srv/QueryCostmap.srv"
   DEPENDENCIES std_msgs sensor_msgs
 )
 
@@ -37,4 +38,3 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
-
