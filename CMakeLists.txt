@@ -21,6 +21,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Trajectory.msg"
   "msg/Obstacle.msg"
   "msg/Obstacles.msg"
+  "msg/Box.msg"
+  "msg/Boxes.msg"
   DEPENDENCIES std_msgs sensor_msgs
 )
 
