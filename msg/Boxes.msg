@@ -1,5 +1,7 @@
 # Boxes.msg
 #
-# Box[] boxes
+# Box[] : boxes
 
-Box[] boxes
+# cev_msgs/Box[] boxes
+
+cev_msgs/Box[] obstacles
